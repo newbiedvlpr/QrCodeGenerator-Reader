@@ -8,5 +8,5 @@ data = "https://play.google.com/store/apps/details?id=com.naukriGulf.app"
 qr.add_data(data)
 qr.make(fit = True)
 
-img = qr.make_image(fill = "blue" , back_color = "white")
+img = qr.make_image(fill_color = 'red',back_color = 'white')
 img.save("Nukri.png")
